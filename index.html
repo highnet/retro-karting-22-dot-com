@@ -1,14 +1,302 @@
 <!DOCTYPE html>
+<!--HTML-->
 <html lang="en">
+  <!--Head-->
   <head>
+    <!--Metas-->
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Welcome to Retro Karting 22. Your reaction time, decision making and driving skills will be tested to the limit! Choose your character and kart and drift your way to victory! Race your own ghost images in this single player, time trial based, indie karting game."
+    />
+    <meta property="og:title" content="Retro Karting 22" />
+    <meta
+      property="og:description"
+      content="Welcome to Retro Karting 22. Your reaction time, decision making and driving skills will be tested to the limit! Choose your character and kart and drift your way to victory! Race your own ghost images in this single player, time trial based, indie karting game."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="-TODO" />
+    <meta property="og:url" content="https://www.retrokarting22.com" />
+    <!--Title-->
+    <title>Retro Karting 22</title>
+    <!--APIs-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--CSS-->
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
+  <!--Body-->
   <body>
-    <h1>Hello World!</h1>
-    <p>Lorem ipsum dolor sit amet.</p>
+    <!--Header-->
+    <header>
+      <!--Navbar-->
+      <nav class="nav collapsible" data-aos="fade-down">
+        <img src="assets/logo.svg" alt="" />
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item">
+            <a
+              href="https://store.steampowered.com/app/1906070/Retro_Karting_22/"
+              >Play</a
+            >
+          </li>
+          <li class="nav__item"><a href="#media-section">Media</a></li>
+          <li class="nav__item"><a href="#features-section">Features</a></li>
+          <li class="nav__item"><a href="#reviews-section">Reviews</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Hero-->
+    <div class="block block--gradient">
+      <div class="container grid grid--1x3" data-aos="fade-down">
+        <header class="block__header hero hero__content">
+          <h1 class="block__heading">Retro Karting 22</h1>
+          <p data-aos="zoom-in" class="hero__tagline">🏁Ready, Set, Go!🏁</p>
+          <a
+            href="https://store.steampowered.com/app/1906070/Retro_Karting_22/"
+            class="btn btn--accent btn--stretched"
+            >Play For Free!</a
+          >
+        </header>
+      </div>
+    </div>
+    <!--Media-->
+    <div class="block block--gradient">
+      <h2 id="media-section" class="media--title">Media</h2>
+      <h3 class="media--subtitle">Trailer</h3>
+      <div class="videowrapper">
+        <iframe
+          src="https://www.youtube.com/embed/1wpj1uEzrC8"
+          title="Retro Karting 22 Trailer 2 - New Retro Karting Game Coming Soon To Steam!"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <h3 class="media--subtitle">Featured Gameplay</h3>
+
+      <div class="videowrapper">
+        <iframe
+          src="https://www.youtube.com/embed/RnDot0CBKkY"
+          title="Retro Karting 22 | GamePlay PC"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <div class="videowrapper">
+        <iframe
+          src="https://www.youtube.com/embed/24Yk0c__tDo"
+          title="Retro Karting 22! Finding Pizza is Hard!"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <!--Play Block-->
+    <div class="block block--gradient">
+      <div class="play__button" data-aos="zoom-in">
+        <a
+          href="https://store.steampowered.com/app/1906070/Retro_Karting_22/"
+          class="btn btn--primary btn--stretched"
+        >
+          Play for Free!
+        </a>
+      </div>
+    </div>
+    <!--Features-->
+    <div class="block block--gradient block-features">
+      <h2 id="features-section">Features</h2>
+      <div class="grid grid--1x3" data-aos="fade-up" data-aos-duration="3000">
+        <div class="feature">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="feature__name">Time Trial Racing</h3>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">
+                  Compete against your own ghost images to increase your times
+                </li>
+                <li class="list__item">Improve as you go</li>
+                <li class="list__item">Unlimited replayability</li>
+                <li class="list__item">Compete against your friends</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="feature feature--popular">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="feature__name">Thrill-inducing racing</h3>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">3 Racing Tracks</li>
+                <li class="list__item">2 Playable Characters</li>
+                <li class="list__item">2 Playable Karts</li>
+                <li class="list__item">Steam Achievements</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="feature__name">Play for free</h3>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Single player</li>
+                <li class="list__item">No internet connection required</li>
+                <li class="list__item">Low system requirements</li>
+                <li class="list__item">Fun for all ages!</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Play Block-->
+    <div class="block block--gradient">
+      <div class="play__button" data-aos="zoom-in">
+        <a
+          href="https://store.steampowered.com/app/1906070/Retro_Karting_22/"
+          class="btn btn--primary btn--stretched"
+        >
+          Play for Free!
+        </a>
+      </div>
+    </div>
+    <!--Testimonials-->
+    <div class="block block--gradient">
+      <header class="block__header">
+        <h2 id="reviews-section" data-aos="fade-in" data-aos-duration="3s">
+          What our Players are saying
+        </h2>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <blockquote class="quote" data-aos="fade-left">
+            <p class="quote__text">
+              Fun for all-level players. Competing with your ghosts. Many
+              features to discover. Carefully design and it´s free. Well done.
+            </p>
+            <footer>
+              <div class="media">
+                <div class="media__body">
+                  <h3 class="media__title quote__author">DieT</h3>
+                  <p class="quote__company">Steam Review</p>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card testimonial">
+          <blockquote class="quote" data-aos="fade-left">
+            <p class="quote__text">
+              This is a pretty solid one player mario kart game it controls well
+              and feels good to drift around some of the corners I don't think
+              the leaderboard is global which is a shame, but the times are
+              pretty hard, but realistic seemingly. The achievements work, but
+              only pop once you've closed the game which confused the heck out
+              of me, but if you check the gallery it'll reaffirm your pizza
+              acquisitions on each stage. Overall it's a decent free to play go
+              kart game.
+            </p>
+            <footer>
+              <div class="media">
+                <div class="media__body">
+                  <h3 class="media__title quote__author">The FluffeyPanda</h3>
+                  <p class="quote__company">Steam Review</p>
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <!--Play Block-->
+    <div class="block block--gradient">
+      <div class="play__button" data-aos="zoom-in">
+        <a
+          href="https://store.steampowered.com/app/1906070/Retro_Karting_22/"
+          class="btn btn--primary btn--stretched"
+        >
+          Play for Free!
+        </a>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <!--Footer Block-->
+    <footer class="block block--dark footer" data-aos="fade-up">
+      <div class="container grid footer__sections">
+        <div class="collapsible collapsible--expanded footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Play</h2>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li>
+                <a
+                  href="https://store.steampowered.com/app/1906070/Retro_Karting_22/"
+                  >Retro Karting 22 on Steam</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Media</h2>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#media-section">Featured Gameplay</a></li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCH7vpZDjdBGkj66qWHlX0sg"
+                  >Videos</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="collapsible footer__section">
+          <div class="collapsible__header">
+            <a href="#features-section"
+              ><h2 class="collapsible__heading footer__heading">Features</h2></a
+            >
+          </div>
+        </div>
+        <div class="collapsible footer__section">
+          <div class="collapsible__header">
+            <a href="#reviews-section"
+              ><h2 class="collapsible__heading footer__heading">Reviews</h2></a
+            >
+          </div>
+        </div>
+        <div class="footer__brand">
+          <img src="assets/images/logo.svg" alt="" />
+          <p class="footer__copyright">&copy; 2022 Manujoaco</p>
+        </div>
+      </div>
+    </footer>
+    <!--Scripts-->
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
